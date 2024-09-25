@@ -123,31 +123,24 @@ The agile methodology is well-suited for projects that require flexibility and t
 
 #### Agile methodology advantages
 
-Stakeholders and users can provide feedback throughout the SDLC, making it easier for developers to build software that meets their needs.
-
-Incremental delivery helps development teams identify and fix issues early in the project before they become major problems.
-
-Cost savings might be realized by reducing the amount of rework required to fix issues.
-
-Retrospectives provide an opportunity for teams to continuously improve the process.
+- Stakeholders and users can provide feedback throughout the SDLC, making it easier for developers to build software that meets their needs.
+- Incremental delivery helps development teams identify and fix issues early in the project before they become major problems.
+- Cost savings might be realized by reducing the amount of rework required to fix issues.
+- Retrospectives provide an opportunity for teams to continuously improve the process.
 
 #### Agile methodology disadvantages
 
-Requirements must be clearly defined in the user story. If not, the project can quickly derail.
+- Requirements must be clearly defined in the user story. If not, the project can quickly derail.
+- Too much user feedback might change the scope of the project, cause delays, or make it difficult to manage.
+- Incremental deliverables can make it difficult to determine how long it will take to finish the entire project.
 
-Too much user feedback might change the scope of the project, cause delays, or make it difficult to manage.
-
-Incremental deliverables can make it difficult to determine how long it will take to finish the entire project.
-
-Agile frameworks
+#### Agile frameworks
 
 Agile methods are often called frameworks and the most common agile framework is called “scrum.” There are the three key roles on the scrum team:
 
-The scrum master ensures that the team follows the scrum process and is continuously looking for ways that the team can improve while resolving issues that arise during the sprint.
-
-The product owner takes responsibility for what the team builds and why they build it, along with keeping the backlog of work in priority order and up to date.
-
-The scrum team members build the product and are responsible for engineering and quality.
+- The scrum master ensures that the team follows the scrum process and is continuously looking for ways that the team can improve while resolving issues that arise during the sprint.
+- The product owner takes responsibility for what the team builds and why they build it, along with keeping the backlog of work in priority order and up to date.
+- The scrum team members build the product and are responsible for engineering and quality.
 
 The scrum team decides how to manage its own workload for each sprint based on the backlog shown on a task board. Team members participate in a daily scrum (or daily standup) meeting where each person reports on their individual progress. At the end of the sprint, the team demonstrates their potentially shippable increment to stakeholders, conducts a retrospective, and determines actions for the next sprint.
 
@@ -155,44 +148,43 @@ Kanban is another agile framework. Kanban is Japanese term that means billboard 
 
 To help them work most effectively, development teams might adopt aspects of both the scrum and kanban agile frameworks.
 
-Other popular SDLC methodologies
+### Other popular SDLC methodologies
 
-The iterative model emphasizes continuous feedback and incremental progress. It organizes the development process into small cycles where developers make frequent, incremental changes to continuously learn and avoid costly mistakes. The iterative model is well-suited for large projects that can be divided into smaller pieces, and for projects where the requirements are clearly defined from the start.
+- The iterative model emphasizes continuous feedback and incremental progress. It organizes the development process into small cycles where developers make frequent, incremental changes to continuously learn and avoid costly mistakes. The iterative model is well-suited for large projects that can be divided into smaller pieces, and for projects where the requirements are clearly defined from the start.
 
-The spiral model combines the iterative and waterfall models. It takes an evolutionary approach where developers iteratively develop, test, and refine the software in successive cycles, or spirals. Large, complex, and costly projects are well-suited for this model.
+- The spiral model combines the iterative and waterfall models. It takes an evolutionary approach where developers iteratively develop, test, and refine the software in successive cycles, or spirals. Large, complex, and costly projects are well-suited for this model.
 
-The v-shaped model emphasizes testing and validation in a sequential process. This model is very useful for projects in industries like healthcare, where thorough testing is critical.
+- The v-shaped model emphasizes testing and validation in a sequential process. This model is very useful for projects in industries like healthcare, where thorough testing is critical.
 
-The lean model focuses on increasing efficiency throughout the development process. This model takes an iterative approach and is well-suited for projects where achieving short-term goals is a priority and when there’s frequent interaction between the development team and users.
+- The lean model focuses on increasing efficiency throughout the development process. This model takes an iterative approach and is well-suited for projects where achieving short-term goals is a priority and when there’s frequent interaction between the development team and users.
 
-SDLC best practices and challenges
+## SDLC best practices and challenges
+
 The biggest challenges to a successful SDLC often stem from inadequate communication, planning, testing, or documentation. Best practices to address these issues include:
 
-Collaboration between the development team, IT operations, the security team, and stakeholders.
+- Collaboration between the development team, IT operations, the security team, and stakeholders.
+- Clearly defining user requirements and project deliverables, timelines, and milestones.
+- Detailed documentation of resources, schedules, code, and other deliverables.
+- Daily scrum meetings to identify and resolve issues.
+- Retrospectives to drive continuous improvement across the SDLC.
 
-Clearly defining user requirements and project deliverables, timelines, and milestones.
-
-Detailed documentation of resources, schedules, code, and other deliverables.
-
-Daily scrum meetings to identify and resolve issues.
-
-Retrospectives to drive continuous improvement across the SDLC.
-
-SDLC security
+## SDLC security
 Due to increasing cyberattacks and security breaches, development teams are under pressure to improve application security. SDLC security is a set of processes that incorporate robust security measures and testing into the SDLC. Best practices support the detection and remediation of security issues early in the lifecycle—before the software is deployed to production.
 
-Security that empowers developers
+### Security that empowers developers
 
 To get ahead of security issues, some teams are using development platforms that build security analysis into their workflow. For example, the GitHub platform scans code for security issues as it’s written in the coding phase.
 
-How does DevOps work with the SDLC?
+## How does DevOps work with the SDLC?
 DevOps is an approach to SDLC that combines development (dev) and operations (ops) to speed the delivery of quality software. The core principles of this approach are automation, security, and continuous integration and continuous delivery (CI/CD), which combines the SDLC into one integrated workflow.
 
 DevOps follows the lean and agile SDLC methodologies and emphasizes collaboration. Throughout the entire SDLC, developers, IT operations staff, and security teams regularly communicate and work together to ensure successful project delivery.
 
-See a comparison of DevOps solutions
-
-Conclusion
+## Conclusion
 A well-structured SDLC helps development teams deliver high-quality software faster and more efficiently. Although SDLC methods vary by organization, most development teams use SDLC to guide their projects.
 
 The SDLC helps development teams build software that meets user requirements and is well-tested, highly secure, and production ready. Popular tools that support the SDLC process include:
+- GitHub Actions to automate SDLC workflows.
+- GitHub security tools to help developers ship secure applications.
+- GitHub Copilot to developers write code faster with AI.
+- GitHub code review tools to help avoid human error.
